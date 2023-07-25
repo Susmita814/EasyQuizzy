@@ -1,0 +1,184 @@
+/* Desktop - 1 */
+.Desktop{
+    position: relative;
+    width: 1270px;
+    height: 50px;
+
+    background: #040404;
+}
+
+
+/* EasyQuizzy */
+.EasyQuizzy{
+    position: absolute;
+width: 220px;
+height: 50px;
+left: 40px;
+top: -4px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 350;
+font-size: 40px;
+line-height: 70px;
+
+/* identical to box height */
+
+color: #fefefe;
+}
+
+/* Home */
+
+.Home{
+    position: absolute;
+width: 69px;
+height: 43px;
+left: 200px;
+top: 5px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 43px;
+
+color: #fefdfd;
+}
+
+/* About Us */
+.About{
+    position: absolute;
+width: 104px;
+height: 43px;
+left: 250px;
+top: 5px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 43px;
+
+color: #fcfbfb;
+}
+
+/* Contacts */
+.Contacts{
+    position: absolute;
+width: 99px;
+height: 43px;
+left: 320px;
+top: 5px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 43px;
+
+color: #fffcfc;
+
+}
+
+.Login{
+    position: absolute;
+width: 99px;
+height: 43px;
+left: 370px;
+top: 5px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 43px;
+
+color: #fefcfc;
+
+}
+
+/* Vector */
+.login-icon{
+    position: absolute;
+left: 91.83%;
+right: 3.1%;
+top: 20.45%;
+bottom: 10.23%;
+
+background: #000000;
+
+}
+
+/* user Icon */
+.Icon1{
+    /* Vector */
+
+position: absolute;
+left: 1150px;
+right: 3.1%;
+top: -1px;
+bottom: 10.23%;
+
+background: #000000;
+
+}
+
+/* Standard Collection 0 */
+.logo{
+    position: absolute;
+width: 57px;
+height: 63px;
+left: 19px;
+top: 17px;
+
+/* Clip path group */
+
+position: absolute;
+left: 1.51%;
+right: 93.97%;
+top: 19.32%;
+bottom: 9.09%;
+
+
+
+/* clip0 */
+
+position: absolute;
+left: 1.51%;
+right: 93.97%;
+top: 19.32%;
+bottom: 9.09%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 1.51%;
+right: 93.97%;
+top: 19.32%;
+bottom: 9.09%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 1.51%;
+right: 93.97%;
+top: 19.32%;
+bottom: 9.09%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 1.51%;
+right: 93.97%;
+top: 19.32%;
+bottom: 9.09%;
+
+background: linear-gradient(45.32deg, #41287B 14.7%, #462779 22.39%, #572775 32.46%, #72266E 43.79%, #982565 56.17%, #C82459 69.12%, #E72452 76.63%);
+}

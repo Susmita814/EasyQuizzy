@@ -1,0 +1,176 @@
+.Registration-page {
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background: linear-gradient(105.85deg, rgba(205, 102, 136, 0.37) 0%, rgba(189, 118, 156, 0.822161) 17.78%, #75C2F6 100%);
+  }
+
+  .Container{
+    position: absolute;
+left: 31.72%;
+right: 33.15%;
+top: 19.13%;
+bottom: 7.58%;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.49) 100%);
+border-radius: 35px;
+  }
+
+.Icon{
+    position: absolute;
+width: 77px;
+height: 77px;
+left: 185px;
+top: 4px;
+}
+
+.registration{
+        position: absolute;
+    width: 56px;
+    height: 36px;
+    left: 176px;
+    top: 35px;
+    
+    font-family: 'Kantumruy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: #000000; 
+}
+
+.Rectangle4{
+    position: absolute;
+width: 95px;
+height: 33px;
+left: 74px;
+top: 110px;
+
+background: rgba(89, 88, 88, 0.28);
+}
+
+.Rectangle5{
+    position: absolute;
+width: 95px;
+height: 33px;
+left: 74px;
+top: 150px;
+
+background: rgba(89, 88, 88, 0.28);
+}
+
+.Rectangle6{
+    position: absolute;
+width: 95px;
+height: 33px;
+left: 74px;
+top: 190px;
+
+background: rgba(89, 88, 88, 0.28);
+}
+
+.Rectangle7{
+    position: absolute;
+width: 95px;
+height: 40px;
+left: 74px;
+top: 270px;
+
+background: rgba(89, 88, 88, 0.28);
+}
+
+/*----------------------------*/
+
+.Rectangle8{
+    position: absolute;
+width: 210px;
+height: 27px;
+left: 170px;
+top: 110px;
+
+background: #fefefe;
+}
+
+.Rectangle9{
+    position: absolute;
+width: 210px;
+height: 27px;
+left: 170px;
+top: 150px;
+
+background: #ffffff;
+}
+
+.Rectangle10{
+    position: absolute;
+width: 210px;
+height: 27px;
+left: 170px;
+top: 190px;
+
+background: #fffefe;
+}
+
+.Rectangle11{
+    position: absolute;
+width: 210px;
+height: 35px;
+left: 170px;
+top: 270px;
+
+background: #ffffff;
+}
+
+.text{
+    width: 210px;
+height: 35px;
+left: 400px;
+top: 450px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2a3f44;
+}
+.Submit{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+font-family: 'Inter';
+font-style: Bold;
+font-weight: 400;
+font-size: 20px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.Rectangle{
+    position: absolute;
+left: 170px;
+right: 0px;
+top: 350px;
+bottom: 0px;
+width: 100px;
+height: 30px;
+
+background: #07925f;
+}
+

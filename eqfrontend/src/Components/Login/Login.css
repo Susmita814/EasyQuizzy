@@ -1,0 +1,301 @@
+.login-page {
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background: linear-gradient(105.85deg, rgba(205, 102, 136, 0.37) 0%, rgba(189, 118, 156, 0.822161) 17.78%, #75C2F6 100%);
+  }
+  
+  .login-title {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .login-label {
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-controlg {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: border-color 0.3s;
+    font-size: 14px;
+  }
+  
+  .form-controlg:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  /* 🦆 icon "profile circle" */
+.Icon{
+    position: absolute;
+width: 77px;
+height: 77px;
+left: 185px;
+top: 50px;
+}
+
+
+
+
+
+  /*---------------------------------------*/
+.Rectangle1{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1261px;
+height: 695px;
+left: 0px;
+top: 89px;
+
+
+}
+  /* Rectangle 2 */
+.Rectangle2{
+    position: absolute;
+left: 31.72%;
+right: 33.15%;
+top: 19.13%;
+bottom: 7.58%;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.49) 100%);
+border-radius: 35px;
+}
+ 
+
+
+/* Rectangle 4 */
+
+.Rectangle4{
+    position: absolute;
+width: 95px;
+height: 33px;
+left: 74px;
+top: 169px;
+
+background: rgba(89, 88, 88, 0.28);
+}
+
+
+
+/* User Id */
+.UserId{
+    position: absolute;
+width: 82px;
+height: 25px;
+left: 78px;
+top: 177px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 25px;
+
+color: rgba(31, 30, 30, 0.35);
+}
+
+
+
+
+/* Rectangle 5 */
+.Rectangle5{
+    position: absolute;
+width: 94px;
+height: 33px;
+left: 75px;
+top: 226px;
+
+background: rgba(92, 92, 92, 0.27);
+}
+/*  */
+
+
+/* Password */
+.Password{
+    position: absolute;
+width: 67px;
+height: 25px;
+left: 78px;
+top: 230px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 25px;
+text-align: center;
+
+color: #727272;
+}
+
+
+/* Rectangle 6 */
+.Rectangle6{
+    position: absolute;
+width: 210px;
+height: 27px;
+left: 170px;
+top: 169px;
+
+background: #D9D9D9;
+}
+
+
+
+/* Rectangle 7 */
+.Rectangle7{
+    position: absolute;
+width: 210px;
+height: 27px;
+left: 170px;
+top: 226px;
+
+background: #D9D9D9;
+}
+
+/* Login */
+.Login{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+/* Rectangle */
+.Rectangle{
+    position: absolute;
+left: 180px;
+right: 0px;
+top: 300px;
+bottom: 0px;
+
+background: #1A8FDD;
+}
+
+/* login */
+.login{
+    position: absolute;
+width: 56px;
+height: 36px;
+left: 196px;
+top: 97px;
+
+font-family: 'Kantumruy';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+
+color: #000000; 
+}
+
+
+
+
+/* Rectangle 8 */
+.Rectangle8{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 70px;
+top: calc(50% - 12px/2 + 113px);
+
+background: #FFFFFF;
+}
+
+
+
+/* Remember me */
+.Remember{
+    position: absolute;
+width: 100px;
+height: 22px;
+left: 70px;
+top: 270px;
+
+font-family: 'Kdam Thmor';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px; 
+/* identical to box height */
+
+color: #436570; 
+}
+
+
+.create{
+    position: absolute;
+    width: 200px;
+height: 27px;
+left: 250px;
+top: 370px;
+
+font-family: 'Metal';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 27px;
+color: #41768C;
+}
+
+/* Forgot Password? */
+.Forgot{
+    position: absolute;
+    width: 100px;
+height: 27px;
+left: 70px;
+top: 370px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #41768C;
+}
+
+
+  

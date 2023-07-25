@@ -1,0 +1,76 @@
+/* Rectangle 1 */
+.Rectangle-Background{
+    position: absolute;
+    width: 1261px;
+    height: 490px;
+    
+    background: linear-gradient(105.85deg, rgba(205, 102, 136, 0.37) 0%, rgba(189, 118, 156, 0.822161) 17.78%, #75C2F6 100%);
+}
+
+/* Level up Your Skill */
+.First-text{
+    position: absolute;
+width: 368px;
+height: 50px;
+left: 70px;
+top: 30px;
+
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 70px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.Second-text{
+    /* Play Online Quize And Upgrade Yourself */
+
+position: absolute;
+width: 600px;
+height: 244px;
+left: 25px;
+top: 90px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+
+background-image: "eqfrontend\src\Components\MainNav\Logo.png";
+
+}
+
+/* img4 1 */
+.home-image{
+    
+
+  /* img4 1 */
+
+position: absolute;
+width: 800px;
+height: 50px;
+top: 400px;
+
+
+background: url('C:\Users\susingha\OneDrive - Capgemini\Desktop\github\Quiz\EasyQuizzy\eqfrontend\src\Components\MainNav\downimg.png');
+}
+
+
+/* -------------------------------------------------------------------------------- */
+.Home-background{
+    background-image: url("https://www.build-review.com/wp-content/uploads/2021/06/Minimizing-Disruption-to-Construction-Projects.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
