@@ -126,22 +126,15 @@ top: 270px;
 background: #ffffff;
 }
 
-.text{
-    width: 210px;
-height: 35px;
-left: 400px;
-top: 450px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 8px;
-line-height: 15px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #2a3f44;
-}
+.text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    top: 400px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2a3f44;
+  }
 .Submit{
     position: absolute;
 left: 0px;

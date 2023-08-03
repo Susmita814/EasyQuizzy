@@ -66,7 +66,7 @@ top: 50px;
 
 
   /*---------------------------------------*/
-.Rectangle1{
+.LRectangle1{
     /* Rectangle 1 */
 
 position: absolute;
@@ -78,7 +78,7 @@ top: 89px;
 
 }
   /* Rectangle 2 */
-.Rectangle2{
+.LRectangle2{
     position: absolute;
 left: 31.72%;
 right: 33.15%;
@@ -93,7 +93,7 @@ border-radius: 35px;
 
 /* Rectangle 4 */
 
-.Rectangle4{
+.LRectangle4{
     position: absolute;
 width: 95px;
 height: 33px;
@@ -126,7 +126,7 @@ color: rgba(31, 30, 30, 0.35);
 
 
 /* Rectangle 5 */
-.Rectangle5{
+.LRectangle5{
     position: absolute;
 width: 94px;
 height: 33px;
@@ -158,7 +158,7 @@ color: #727272;
 
 
 /* Rectangle 6 */
-.Rectangle6{
+.LRectangle6{
     position: absolute;
 width: 210px;
 height: 27px;
@@ -171,7 +171,7 @@ background: #D9D9D9;
 
 
 /* Rectangle 7 */
-.Rectangle7{
+.LRectangle7{
     position: absolute;
 width: 210px;
 height: 27px;
@@ -204,7 +204,7 @@ color: #FFFFFF;
 
 
 /* Rectangle */
-.Rectangle{
+.LRectangle{
     position: absolute;
 left: 180px;
 right: 0px;
@@ -235,7 +235,7 @@ color: #000000;
 
 
 /* Rectangle 8 */
-.Rectangle8{
+.LRectangle8{
     position: absolute;
 width: 14px;
 height: 12px;
