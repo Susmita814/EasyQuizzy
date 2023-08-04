@@ -35,7 +35,7 @@ export default function Login({ setIsLoggedIn, isLoggedIn }) {
 
     if (validate()) {
       const user = users.find((user) => user.email === email);
-
+      console.log(user);
       if (user) {
         if (user.password === password) {
           setIsLoggedIn(true);
