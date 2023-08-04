@@ -20,7 +20,7 @@ export default function Registration() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
@@ -28,38 +28,54 @@ export default function Registration() {
       return;
     }
 
-    if (formData.password.length < 8) {
-      toast.error('Password must be at least 8 characters long');
-      return;
-    }
+    // Password validation
+  const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{5,}$/;
+  if (!passwordPattern.test(formData.password)) {
+    toast.error(
+      'Password must be at least 5 characters long and contain at least one uppercase letter, one lowercase letter, one numeric digit, and one special character.'
+    );
+    return;
+  }
 
     // Email validation using regex pattern
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    if (!emailPattern.test(formData.email)) {
-      toast.error('Invalid email address');
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  if (!emailPattern.test(formData.email)) {
+    toast.error('Invalid email address');
+    return;
+  }
+
+  // Check if email already exists (You can replace this with your own logic to check if the email is already registered)
+  try {
+    const response = await fetch(`http://localhost:8010/users?email=${formData.email}`);
+    const data = await response.json();
+    if (data.length > 0) {
+      toast.error('This email is already registered. Please use a different email.');
       return;
     }
+  } catch (error) {
+    toast.error('Failed to check email availability. Please try again.');
+    return;
+  }
 
-    // If all validations pass, continue with registration
-    fetch('http://localhost:8010/users', {
+  // If all validations pass, continue with registration
+  try {
+    const res = await fetch('http://localhost:8010/users', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(formData)
-    })
-      .then((res) => {
-        if (res.ok) {
-          toast.success('Registered successfully.');
-          navigate('/login');
-        } else {
-          toast.error('Failed to register. Please try again.');
-        }
-      })
-      .catch((err) => {
-        toast.error('Failed: ' + err.message);
-      });
-  };
+    });
+    if (res.ok) {
+      toast.success('Registered successfully.');
+      navigate('/login');
+    } else {
+      toast.error('Failed to register. Please try again.');
+    }
+  } catch (error) {
+    toast.error('Failed: ' + error.message);
+  }
+};
 
-  return (
+return (
     <div className='Registration-page'>
       <div className='Container'>
         <div className='row'>
