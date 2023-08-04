@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import './MainNav.css';
 import { Link } from 'react-router-dom';
 
 export default function MainNav(props) {
+  const [showLogoutPopup, setShowLogoutPopup] = useState(false);
+
+  const handleLogout = () => {
+    // Handle the logout action here
+    // You can perform any additional logout logic here
+    setShowLogoutPopup(false); // Close the popup
+    props.handleLogout(); // Call the handleLogout function from props
+  };
+
   return (
     <nav className="Desktop">
       <div className="EasyQuizzy">
@@ -39,9 +48,29 @@ export default function MainNav(props) {
         </div>
         <div className="Login">
           {props.isLoggedIn ? (
-            <Link className="Icon1" to="/" onClick={props.handleLogout}>
-              <FontAwesomeIcon icon={faSignOutAlt} size="3x" style={{ color: 'white' }} />
-            </Link>
+            <div className="icon-container">
+              {showLogoutPopup && (
+                <div className="overlay" onClick={() => setShowLogoutPopup(false)}></div>
+              )}
+              <div
+                className="logout-popup logout-popup p"
+                style={{
+                  display: showLogoutPopup ? 'block' : 'none',
+                  zIndex: showLogoutPopup ? 1000 : -1,
+                }}
+              >
+                <p>Are you sure you want to logout?</p>
+                <button onClick={handleLogout}>Confirm</button>
+                <button onClick={() => setShowLogoutPopup(false)}>Cancel</button>
+              </div>
+              <Link
+                className="Icon1"
+                to="#"
+                onClick={() => setShowLogoutPopup(!showLogoutPopup)}
+              >
+                <FontAwesomeIcon icon={faSignOutAlt} size="3x" style={{ color: 'white' }} />
+              </Link>
+            </div>
           ) : (
             <Link className="Icon1" to="/login">
               <FontAwesomeIcon icon={faUserPlus} size="3x" style={{ color: 'white' }} />
