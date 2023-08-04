@@ -6,6 +6,10 @@ import Registration from './Components/Registration/Registration';
 import Home from './Components/Home/Home';
 //import About from './Components/About/About';
 import './App.css';
+import Sidebar from './Components/Profile/Sidebar/Sidebar';
+import ProfilePage from './Components/Profile/ProfilePage/ProfilePage';
+import GamePage from './Components/Profile/GamePage/GamePage';
+import About from './Components/About/About';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -30,6 +34,10 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
           <Route exact path="/registration" element={<Registration />} />
+          <Route exact path="/profile" element={<ProfilePage />} />
+          <Route exact path="/sidebar" element={<Sidebar />} />
+          <Route exact path="/gamepage" element={<GamePage />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

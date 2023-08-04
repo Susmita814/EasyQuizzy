@@ -40,7 +40,7 @@ export default function Login({ setIsLoggedIn, isLoggedIn }) {
         if (user.password === password) {
           setIsLoggedIn(true);
           toast.success('Success');
-          usenavigate('/home');
+          usenavigate('/profile');
         } else {
           toast.error('Invalid password');
         }
